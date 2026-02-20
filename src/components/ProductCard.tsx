@@ -16,7 +16,8 @@ export default function ProductCard({ product }: Props) {
                         src={product.image}
                         alt={product.title}
                         className="h-full object-contain"
-                        fill
+                        height={200}
+                        width={200}
                     />
                 </div>
 
